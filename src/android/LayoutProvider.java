@@ -165,18 +165,18 @@ public class LayoutProvider {
     }
 
     private static void setupBuffering(SimpleExoPlayerView parentView, Activity activity, JSONObject controller) {
-        String bufferingColor = controller.optString("bufferingColor");
-        ProgressBar bufferingBar = (ProgressBar)findView(parentView, activity, "exo_buffering");
-        if (null != bufferingBar && null != bufferingColor) {
-            bufferingBar.getIndeterminateDrawable().setColorFilter(Color.parseColor(bufferingColor), android.graphics.PorterDuff.Mode.MULTIPLY);
-        }
+        //String bufferingColor = controller.optString("bufferingColor");
+       // ProgressBar bufferingBar = (ProgressBar)findView(parentView, activity, "exo_buffering");
+        //if (null != bufferingBar && null != bufferingColor) {
+        //    bufferingBar.getIndeterminateDrawable().setColorFilter(Color.parseColor(bufferingColor), android.graphics.PorterDuff.Mode.MULTIPLY);
+        //}
     }
 
     public static void setBufferingVisibility(SimpleExoPlayerView parentView, Activity activity, boolean visibile) {
-        ProgressBar progressBar = (ProgressBar)findView(parentView, activity, "exo_buffering");
-        if (null != progressBar) {
-            progressBar.setVisibility(visibile ? View.VISIBLE : View.GONE);
-        }
+        //ProgressBar progressBar = (ProgressBar)findView(parentView, activity, "exo_buffering");
+        //if (null != progressBar) {
+          //  progressBar.setVisibility(visibile ? View.VISIBLE : View.GONE);
+        //}
     }
 
     private static View findView(View view, Activity activity, String name) {

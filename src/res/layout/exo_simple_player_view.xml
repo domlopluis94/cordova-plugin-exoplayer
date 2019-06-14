@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <ProgressBar
+    <!--<ProgressBar
         android:id="@+id/exo_buffering"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="fill_parent"
@@ -54,5 +54,5 @@
         android:max="100"
         android:indeterminateTint="@color/accent_color"
         android:indeterminateTintMode="src_in"
-        android:indeterminate="true"/>
+        android:indeterminate="true"/>-->
 </merge>
